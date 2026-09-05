@@ -1,1 +1,868 @@
+# Day 1 – SQL Fundamentals
+📅 **Date:** September 4, 2026
+## 🎯 Objective
+Started my SQL learning journey as part of my preparation to transition into an ETL / Data Engineering role.
+The focus of Day 1 was to understand the fundamentals of SQL and practice writing basic queries.
+---
+## 📚 Topics Covered
 
+- SELECT
+
+- WHERE
+
+- DISTINCT
+
+- ORDER BY
+
+- COUNT()
+
+- SUM()
+
+- AVG()
+
+- MAX()
+
+- GROUP BY
+
+- HAVING
+
+- CASE
+
+- INNER JOIN
+
+- LEFT JOIN
+
+- Subqueries
+
+---
+
+## 💻 Practice
+
+I practiced SQL queries using an Employee and Department dataset.
+
+Some of the questions I practiced:
+
+1. Display all employees.
+
+2. Display employee name and salary.
+
+3. Find employees with salary greater than 50,000.
+
+4. Find employees belonging to the IT department.
+
+5. Find unique departments.
+
+6. Sort employees based on salary.
+
+7. Find the total number of employees.
+
+8. Calculate total salary.
+
+9. Calculate average salary.
+
+10. Find the maximum salary.
+
+11. Find employee count for each department.
+
+12. Find average salary for each department.
+
+13. Find the highest salary in each department.
+
+14. Find departments having more than 5 employees.
+
+15. Categorize employees based on salary using CASE.
+
+16. Join employees with departments using INNER JOIN.
+
+17. Join employees with departments using LEFT JOIN.
+
+18. Find employees without a matching department.
+
+19. Find employees earning more than the company average salary.
+
+20. Find employees earning the maximum salary.
+
+---
+
+## 🧠 Key Learnings
+
+- Learned how to retrieve data using SELECT.
+
+- Understood how WHERE is used to filter rows.
+
+- Learned the difference between WHERE and HAVING.
+
+- Practiced aggregate functions with GROUP BY.
+
+- Understood the basic purpose of JOINs.
+
+- Learned how subqueries can be used to solve problems involving calculated values.
+
+- Practiced using CASE for conditional logic.
+
+---
+
+## 💡 ETL / Data Engineering Relevance
+
+These SQL fundamentals are important for ETL and Data Engineering because SQL is commonly used for:
+
+- Extracting data from source systems.
+
+- Filtering required records.
+
+- Transforming data.
+
+- Joining data from multiple tables.
+
+- Aggregating business data.
+
+- Validating data during ETL processes.
+
+---
+
+## 📂 Files
+
+- `day1_queries.sql` – SQL queries practiced during Day 1.
+
+- `handwritten_notes/` – My handwritten learning notes.
+
+---
+
+## ✅ Status
+
+**Day 1 Completed**
+
+Next: Continue with intermediate SQL concepts and more complex queries.
+ 
+Day 1 – SQL Fundamentals
+
+📅 Date: September 4, 2026
+
+🎯 Objective
+
+Started my SQL learning journey as part of my preparation to transition into an ETL / Data Engineering role.
+
+The focus of Day 1 was to understand SQL fundamentals and practice writing basic SQL queries.
+
+📚 Topics Covered
+
+SELECT
+
+WHERE
+
+DISTINCT
+
+ORDER BY
+
+COUNT()
+
+SUM()
+
+AVG()
+
+MAX()
+
+GROUP BY
+
+HAVING
+
+CASE
+
+INNER JOIN
+
+LEFT JOIN
+
+Subqueries
+
+💻 Practice Questions
+
+Basic SQL
+
+Display all employees.
+
+Display employee name and salary.
+
+Find employees with salary greater than 50,000.
+
+Find employees belonging to the IT department.
+
+Find unique departments.
+
+Sort employees by salary in descending order.
+
+Find the total number of employees.
+
+Find the total salary.
+
+Find the average salary.
+
+Find the maximum salary.
+
+Intermediate SQL
+
+Find the number of employees in each department.
+
+Find the average salary for each department.
+
+Find the highest salary in each department.
+
+Find departments having more than 5 employees.
+
+Categorize employees into High, Medium and Low salary groups using CASE.
+
+Display employee name along with department name using INNER JOIN.
+
+Display all employees along with department information using LEFT JOIN.
+
+Find employees who do not have a matching department.
+
+Find employees earning more than the company average salary.
+
+Find employees earning the maximum salary.
+
+🧠 Key Learnings
+
+Learned how to retrieve data using SELECT.
+
+Learned how to filter records using WHERE.
+
+Understood the purpose of DISTINCT.
+
+Practiced sorting data using ORDER BY.
+
+Learned aggregate functions such as COUNT, SUM, AVG and MAX.
+
+Understood how GROUP BY works with aggregate functions.
+
+Learned the difference between WHERE and HAVING.
+
+Practiced INNER JOIN and LEFT JOIN.
+
+Learned how to identify unmatched records.
+
+Practiced subqueries for solving comparison-based problems.
+
+Learned how CASE can be used for conditional logic.
+
+💼 ETL / Data Engineering Relevance
+
+SQL is an important part of ETL and Data Engineering.
+
+The concepts learned today can be used for:
+
+Extracting data from source tables.
+
+Filtering required records.
+
+Joining data from multiple tables.
+
+Aggregating business data.
+
+Applying transformation logic.
+
+Performing basic data validation.
+
+Preparing data for downstream systems.
+
+📂 Files
+
+day1_queries.sql – SQL queries practiced during Day 1.
+
+handwritten_notes/ – My handwritten notes and learning references.
+
+✅ Status
+
+Day 1 Completed
+
+Next: Continue with intermediate SQL concepts and more complex queries.
+
+# Day 1 – SQL Fundamentals
+
+📅 **Date:** September 4, 2026
+
+## 🎯 Objective
+
+Started my SQL learning journey as part of my preparation to transition into an ETL / Data Engineering role.
+
+The focus of Day 1 was to understand SQL fundamentals and practice writing basic SQL queries.
+
+---
+
+## 📚 Topics Covered
+
+* SELECT
+
+* WHERE
+
+* DISTINCT
+
+* ORDER BY
+
+* COUNT()
+
+* SUM()
+
+* AVG()
+
+* MAX()
+
+* GROUP BY
+
+* HAVING
+
+* CASE
+
+* INNER JOIN
+
+* LEFT JOIN
+
+* Subqueries
+
+---
+
+## 💻 Practice Questions
+
+### Basic SQL
+
+1. Display all employees.
+
+2. Display employee name and salary.
+
+3. Find employees with salary greater than 50,000.
+
+4. Find employees belonging to the IT department.
+
+5. Find unique departments.
+
+6. Sort employees by salary in descending order.
+
+7. Find the total number of employees.
+
+8. Find the total salary.
+
+9. Find the average salary.
+
+10. Find the maximum salary.
+
+### Intermediate SQL
+
+11. Find the number of employees in each department.
+
+12. Find the average salary for each department.
+
+13. Find the highest salary in each department.
+
+14. Find departments having more than 5 employees.
+
+15. Categorize employees into High, Medium and Low salary groups using CASE.
+
+16. Display employee name along with department name using INNER JOIN.
+
+17. Display all employees along with department information using LEFT JOIN.
+
+18. Find employees who do not have a matching department.
+
+19. Find employees earning more than the company average salary.
+
+20. Find employees earning the maximum salary.
+
+---
+
+## 🧠 Key Learnings
+
+* Learned how to retrieve data using SELECT.
+
+* Learned how to filter records using WHERE.
+
+* Understood the purpose of DISTINCT.
+
+* Practiced sorting data using ORDER BY.
+
+* Learned aggregate functions such as COUNT, SUM, AVG and MAX.
+
+* Understood how GROUP BY works with aggregate functions.
+
+* Learned the difference between WHERE and HAVING.
+
+* Practiced INNER JOIN and LEFT JOIN.
+
+* Learned how to identify unmatched records.
+
+* Practiced subqueries for solving comparison-based problems.
+
+* Learned how CASE can be used for conditional logic.
+
+---
+
+## 💼 ETL / Data Engineering Relevance
+
+SQL is an important part of ETL and Data Engineering.
+
+The concepts learned today can be used for:
+
+* Extracting data from source tables.
+
+* Filtering required records.
+
+* Joining data from multiple tables.
+
+* Aggregating business data.
+
+* Applying transformation logic.
+
+* Performing basic data validation.
+
+* Preparing data for downstream systems.
+
+---
+
+## 📂 Files
+
+* `day1_queries.sql` – SQL queries practiced during Day 1.
+
+* `handwritten_notes/` – My handwritten notes and learning references.
+
+---
+
+## ✅ Status
+
+**Day 1 Completed**
+
+Next: Continue with intermediate SQL concepts and more complex queries.
+ 
+Day 2 – SQL Intermediate
+
+📅 Date: September 5, 2026
+
+🎯 Objective
+
+Continued my SQL learning journey by moving from basic queries to intermediate SQL concepts and practical query solving.
+
+The focus was on filtering, grouping, JOINs, NULL handling, subqueries and conditional logic.
+
+📚 Topics Covered
+
+AND
+
+OR
+
+IN
+
+BETWEEN
+
+LIKE
+
+Wildcards (% and _)
+
+IS NULL
+
+IS NOT NULL
+
+GROUP BY
+
+Aggregate Functions
+
+HAVING
+
+INNER JOIN
+
+LEFT JOIN
+
+Finding unmatched records
+
+Subqueries
+
+CASE
+
+Second Highest Salary
+
+💻 Practice Questions
+
+Filtering
+
+Find employees based on multiple conditions using AND.
+
+Find employees satisfying at least one condition using OR.
+
+Find employees belonging to specific departments using IN.
+
+Find employees whose salary falls within a specific range using BETWEEN.
+
+Find employees whose names start with a particular letter using LIKE.
+
+Find names having an exact number of characters using _.
+
+Find names containing a particular character using %.
+
+NULL Handling
+
+Find employees whose department ID is NULL.
+
+Find employees whose department ID is NOT NULL.
+
+GROUP BY & HAVING
+
+Find the number of employees in each department.
+
+Find the average salary in each department.
+
+Find departments having more than a specific number of employees.
+
+Find departments where the average salary is greater than a specified amount.
+
+JOINs
+
+Display employee details along with department names using INNER JOIN.
+
+Display all employees along with their department names using LEFT JOIN.
+
+Find employees who do not have a matching department.
+
+Subqueries
+
+Find employees earning more than the company average salary.
+
+Find the employee(s) earning the maximum salary.
+
+Find the second-highest salary.
+
+CASE
+
+Categorize employees into High, Medium and Low salary groups using CASE.
+
+🧠 Key Learnings
+
+AND / OR
+
+Learned how to combine multiple conditions when filtering records.
+
+IN
+
+Learned how to check whether a value belongs to a list of possible values.
+
+BETWEEN
+
+Learned how to filter values within a specific range.
+
+LIKE
+
+Learned pattern matching using % and _.
+
+-- Starts with A
+
+WHERE employee_name LIKE 'A%';
+
+-- Starts with A and contains exactly 4 characters
+
+WHERE employee_name LIKE 'A___';
+
+% represents any number of characters, while _ represents exactly one character.
+
+NULL Handling
+
+Learned that NULL values should be checked using:
+
+IS NULL
+
+IS NOT NULL
+
+GROUP BY & HAVING
+
+Improved my understanding of grouping records and filtering grouped results.
+
+JOINs
+
+Practiced combining information from multiple tables using:
+
+INNER JOIN
+
+LEFT JOIN
+
+Subqueries
+
+Learned how one SQL query can be used inside another query to solve problems such as finding employees earning above the average salary.
+
+CASE
+
+Practiced using CASE statements to apply conditional logic and categorize data.
+
+💼 ETL / Data Engineering Relevance
+
+The concepts learned today are useful in ETL and Data Engineering for:
+
+Filtering source data.
+
+Applying business rules.
+
+Joining multiple source tables.
+
+Identifying missing records.
+
+Performing data validation.
+
+Aggregating data.
+
+Creating transformation logic.
+
+Identifying data quality issues.
+
+📂 Files
+
+day2_queries.sql – SQL queries practiced during Day 2.
+
+handwritten_notes/ – My handwritten notes and learning references.
+
+✅ Status
+
+Day 2 Completed
+
+Next: Day 3 – Advanced SQL
+
+Planned topics:
+
+CTEs
+
+Window Functions
+
+ROW_NUMBER()
+
+RANK()
+
+DENSE_RANK()
+
+PARTITION BY
+
+Date Functions
+
+COALESCE
+
+Advanced SQL practice
+
+# Day 2 – SQL Intermediate
+
+📅 **Date:** September 5, 2026
+
+## 🎯 Objective
+
+Continued my SQL learning journey by moving from basic queries to intermediate SQL concepts and practical query solving.
+
+The focus was on filtering, grouping, JOINs, NULL handling, subqueries and conditional logic.
+
+---
+
+## 📚 Topics Covered
+
+* AND
+
+* OR
+
+* IN
+
+* BETWEEN
+
+* LIKE
+
+* Wildcards (`%` and `_`)
+
+* IS NULL
+
+* IS NOT NULL
+
+* GROUP BY
+
+* Aggregate Functions
+
+* HAVING
+
+* INNER JOIN
+
+* LEFT JOIN
+
+* Finding unmatched records
+
+* Subqueries
+
+* CASE
+
+* Second Highest Salary
+
+---
+
+## 💻 Practice Questions
+
+### Filtering
+
+1. Find employees based on multiple conditions using AND.
+
+2. Find employees satisfying at least one condition using OR.
+
+3. Find employees belonging to specific departments using IN.
+
+4. Find employees whose salary falls within a specific range using BETWEEN.
+
+5. Find employees whose names start with a particular letter using LIKE.
+
+6. Find names having an exact number of characters using `_`.
+
+7. Find names containing a particular character using `%`.
+
+### NULL Handling
+
+8. Find employees whose department ID is NULL.
+
+9. Find employees whose department ID is NOT NULL.
+
+### GROUP BY & HAVING
+
+10. Find the number of employees in each department.
+
+11. Find the average salary in each department.
+
+12. Find departments having more than a specific number of employees.
+
+13. Find departments where the average salary is greater than a specified amount.
+
+### JOINs
+
+14. Display employee details along with department names using INNER JOIN.
+
+15. Display all employees along with their department names using LEFT JOIN.
+
+16. Find employees who do not have a matching department.
+
+### Subqueries
+
+17. Find employees earning more than the company average salary.
+
+18. Find the employee(s) earning the maximum salary.
+
+19. Find the second-highest salary.
+
+### CASE
+
+20. Categorize employees into High, Medium and Low salary groups using CASE.
+
+---
+
+## 🧠 Key Learnings
+
+### AND / OR
+
+Learned how to combine multiple conditions when filtering records.
+
+### IN
+
+Learned how to check whether a value belongs to a list of possible values.
+
+### BETWEEN
+
+Learned how to filter values within a specific range.
+
+### LIKE
+
+Learned pattern matching using `%` and `_`.
+
+```sql
+
+-- Starts with A
+
+WHERE employee_name LIKE 'A%';
+
+-- Starts with A and contains exactly 4 characters
+
+WHERE employee_name LIKE 'A___';
+
+```
+
+`%` represents any number of characters, while `_` represents exactly one character.
+
+### NULL Handling
+
+Learned that NULL values should be checked using:
+
+```sql
+
+IS NULL
+
+IS NOT NULL
+
+```
+
+### GROUP BY & HAVING
+
+Improved my understanding of grouping records and filtering grouped results.
+
+### JOINs
+
+Practiced combining information from multiple tables using:
+
+* INNER JOIN
+
+* LEFT JOIN
+
+### Subqueries
+
+Learned how one SQL query can be used inside another query to solve problems such as finding employees earning above the average salary.
+
+### CASE
+
+Practiced using CASE statements to apply conditional logic and categorize data.
+
+---
+
+## 💼 ETL / Data Engineering Relevance
+
+The concepts learned today are useful in ETL and Data Engineering for:
+
+* Filtering source data.
+
+* Applying business rules.
+
+* Joining multiple source tables.
+
+* Identifying missing records.
+
+* Performing data validation.
+
+* Aggregating data.
+
+* Creating transformation logic.
+
+* Identifying data quality issues.
+
+---
+
+## 📂 Files
+
+* `day2_queries.sql` – SQL queries practiced during Day 2.
+
+* `handwritten_notes/` – My handwritten notes and learning references.
+
+---
+
+## ✅ Status
+
+**Day 2 Completed**
+
+Next: **Day 3 – Advanced SQL**
+
+Planned topics:
+
+* CTEs
+
+* Window Functions
+
+* ROW_NUMBER()
+
+* RANK()
+
+* DENSE_RANK()
+
+* PARTITION BY
+
+* Date Functions
+
+* COALESCE
+
+* Advanced SQL practice
+ 
