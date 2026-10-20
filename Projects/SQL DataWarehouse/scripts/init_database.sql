@@ -7,6 +7,8 @@ Script Purpose:
     If the database exists, it is dropped and recreated. Additionally, the script sets up three schemas
     within the database: 'bronze', 'silver', and 'gold'.
 
+*/
+
 USE master;
 GO
 
